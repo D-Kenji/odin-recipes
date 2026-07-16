@@ -17,3 +17,6 @@ a {
     padding-left: 10px;
     color: white;
 }
+.indeling-foto{
+    display: flex;
+}
