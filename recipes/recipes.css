@@ -1,0 +1,12 @@
+
+.titel {
+    background-color: rgb(27, 78, 245);
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: -10px;
+}
+a {
+    color: gold;
+    text-decoration: none;
+}
