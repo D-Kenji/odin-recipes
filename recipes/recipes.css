@@ -1,10 +1,13 @@
-
+body {
+    background-color: rgb(89, 150, 255);
+}
 .titel {
     background-color: rgb(27, 78, 245);
     margin: 0;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin: -10px;
+    margin-top: -8px;
 }
 a {
     color: gold;
@@ -14,9 +17,30 @@ a {
 .recept-titel{
     background-color: rgb(56, 116, 255);
     margin: 10px -10px;
-    padding-left: 10px;
     color: white;
+    text-align: center;
+    height:38px;
 }
 .indeling-foto{
     display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin-top: -20px;
+}
+.foto{
+    position: relative;
+    align-self: stretch;
+    flex: 1 1 450px;
+    overflow: hidden;
+}
+img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+     width: 100%;
+    object-fit: contain;
+    object-position: left center;
+}
+.ingredienten {
+    margin: 0;
 }
